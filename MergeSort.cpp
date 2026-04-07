@@ -39,3 +39,10 @@ void input()
 void MergeSort(int low, int high)
 {
 
+    if (low >= high) // step 1
+    {
+        return;
+    }
+
+    int mid = (low + high) / 2; // step 2
+
