@@ -90,3 +90,7 @@ void output()
 
 int main ()
 {
+    input();
+    MergeSort(0, n - 1);
+    output();
+}
